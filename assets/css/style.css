@@ -783,9 +783,7 @@ footer {
     margin-right: 0; }
   .container-fluid {
     padding-left: 0;
-    padding-right: 0;
-    margin-left: auto;
-    margin-right: auto;} }
+    padding-right: 0; } }
 
 /* Blog page style */
 .fh5co-blog-content {
@@ -804,10 +802,9 @@ footer {
       padding: 40px 0; } }
 
 .blog-content-inner {
+  text-align: center;
   background-color: #f2d5d7;
   background-color: #000000;
-  margin-left: auto;
-  margin-right: auto;
   padding: 70px;
   border-radius: 15px; }
   .blog-content-inner .card-title {
@@ -820,19 +817,13 @@ footer {
         font-size: 30px; } }
     @media (max-width: 600px) {
       .blog-content-inner .card-title {
-        font-size: 18px;
-        margin-left: auto;
-        margin-right: auto; } }
+        font-size: 18px; } }
   @media (max-width: 767px) {
     .blog-content-inner {
-      padding: 40px;
-      margin-left: auto;
-      margin-right: auto; } }
+      padding: 40px; } }
   @media (max-width: 600px) {
     .blog-content-inner {
-      padding: 20px 0;
-      margin-left: auto;
-      margin-right: auto; } }
+      padding: 20px 0; } }
 
 .single-blog {
   display: flex;
@@ -870,8 +861,12 @@ p {
   color: #aaa;
 }
 
-img {
+.porto {
+  display: inline-block;
   max-height: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 5px 5px 10px;
 }
 
 a {
@@ -882,29 +877,9 @@ a:hover {
   color: #bbb;
 }
 
-.italic { font-style: italic; }
-.small { font-size: 0.8em; }
-
 /** LIGHTBOX MARKUP **/
 
 .lightbox {
-  /* Default to hidden */
-  /* display: none; */
-
-  /* Overlay entire screen */
-  /* position: fixed;
-  z-index: 999;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0; */
-  
-  /* A bit of padding around image */
-  /* padding: 1em; */
-
-  /* Translucent background */
-  /* background-color: black; */
-
   display: none;
   position: fixed;
   z-index: 1;
@@ -915,8 +890,6 @@ a:hover {
   height: 100%;
   overflow: auto;
   background-color: black;
-
-
 }
 
 /* Unhide the lightbox when it's the target */
