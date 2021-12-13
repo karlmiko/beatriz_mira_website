@@ -141,20 +141,20 @@ h2 {
     .fh5co-home-banner .center-text {
       top: 30%; } }
 
-.fh5co-two-img .card-img-overlay {
-  /* background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black);
+/* .fh5co-two-img .card-img-overlay {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black);
   background: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black);
   background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black);
-  background: -linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black); } */}
+  background: -linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), black); } */
 
 .contact-pop {
   margin-top: -300px; }
-  .contact-pop .card-img-overlay {
-    /* background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
+  /* .contact-pop .card-img-overlay {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
     background: -moz-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
     background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
     background: -linear-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6));
-    border-radius: 15px 0 0 15px; } */}
+    border-radius: 15px 0 0 15px; } */
   .contact-pop .row {
     max-width: 918px;
     margin: 0 auto; }
@@ -227,7 +227,7 @@ h2 {
   width: 100%;
   z-index: 1; }
 
-.owl-carousel .owl-stage {
+/* .owl-carousel .owl-stage {
   position: relative;
   -ms-touch-action: pan-Y;
   touch-action: manipulation;
@@ -258,7 +258,7 @@ h2 {
   min-height: 1px;
   float: left;
   -webkit-backface-visibility: hidden;
-  -webkit-touch-callout: none; }
+  -webkit-touch-callout: none; } */
 
 .owl-carousel .owl-item img {
   display: block;
@@ -350,7 +350,7 @@ h2 {
   height: 100%;
   background: #000; }
 
-.owl-carousel .owl-video-play-icon {
+/* .owl-carousel .owl-video-play-icon {
   position: absolute;
   height: 80px;
   width: 80px;
@@ -362,7 +362,7 @@ h2 {
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;
-  transition: transform .1s ease; }
+  transition: transform .1s ease; } */
 
 .owl-carousel .owl-video-play-icon:hover {
   -ms-transform: scale(1.3, 1.3);
