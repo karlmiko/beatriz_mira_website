@@ -1200,6 +1200,20 @@ footer .copy a:hover {
   }
 }
 
+.blog-content-inner-about {
+  text-align: justify;
+  background-color: #f2d5d7;
+  background-color: #000000;
+  padding: 70px;
+  border-radius: 15px;
+}
+
+.blog-content-inner-about .card-title {
+  margin-bottom: 70px;
+  font-size: 45px;
+  text-align: center;
+}
+
 .blog-content-inner {
   text-align: center;
   background-color: #f2d5d7;
